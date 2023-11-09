@@ -13,22 +13,22 @@
 //create()
 
 
-// let person = {
-//   name: 'prakash',
-//   age: 25,
-//   city:"thane",
-// };
+let person = {
+  name: 'prakash',
+  age: 25,
+  city:"thane",
+};
 
-// let employee = Object.create(person, {
-//   salary: { value: 50000 },
-//   position: { value: 'Software Developer' },
-// });
+let employee = Object.create(person, {
+  salary: { value: 50000 },
+  position: { value: 'Software Developer' },
+});
 
-// console.log(employee.name); // Output: 'John'
-// console.log(employee.age); // Output: 30
-// console.log(employee.city)
-// console.log(employee.salary); // Output: 50000
-// console.log(employee.position); // Output: 'Software Developer'
+console.log(employee.name); //prakash
+console.log(employee.age); // Output: 30
+console.log(employee.city)
+console.log(employee.salary); // Output: 50000
+console.log(employee.position); // Output: 'Software Developer'
 
 
 

@@ -1,3 +1,60 @@
+//some imp op  (map ,filter, foreach, indexof, findindex ,includes, every, some)
+//push ,Pop, shift, upshifts, Splice
+//string function
+
+
+//push
+
+// let number=[1,3,4,5,5]
+// number.push(8)
+// console.log(number)
+
+//pop
+
+
+// let numberof=[1,2,34,55]
+// numberof.pop()
+// console.log(numberof)
+
+
+
+//shift
+
+
+//filter
+// let numberofa=[1,2,3,4,5,6]
+// let n=numberofa.filter((el)=> {
+//       return el % 2 === 0;
+//     });
+// console.log(n)
+
+//sort
+
+
+// let c=[7,234,45,67,88]
+// c.sort((a,b)=>{
+//     return b-a
+// })
+// console.log(c)
+
+
+
+//map
+// let PK=[1,2,4,6,5]
+// let j=PK.map((el)=>{
+//     return el
+// })
+// console.log(j)
+
+
+
+
+
+
+
+
+
+
 
 //concat
 
@@ -93,6 +150,20 @@
 // let fnumber=number.push(1)
 // console.log(number);
 
+// let number =[12,239,737]
+// let Pnumber=number.push(1)
+// console.log(number)
+
+
+// let number=[1239,1737,8763,63]
+// let Pnumber=number.pop()
+// console.log(number)
+
+
+
+
+
+
 
 //reduce
 
@@ -154,13 +225,13 @@
 
 //toString()
 
-let fruits = ["apple", "banana", "orange"];
-let fruitsString = fruits.toString();
-console.log(fruitsString);
+// let fruits = ["apple", "banana", "orange"];
+// let fruitsString = fruits.toString();
+// console.log(fruitsString);
 
 //unshift()
 
-let numbers = [2, 3, 4];
-numbers.unshift(0, 1);
-console.log(numbers);
+// let numbers = [2, 3, 4];
+// numbers.unshift(0, 1);
+// console.log(numbers);
 
